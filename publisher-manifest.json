@@ -1,0 +1,123 @@
+{
+  "version": 2,
+  "template_version": "7ffa5ebee0a6d05c86c7",
+  "page_size": 20,
+  "site_id": "c7d96441002ee0241b1ec6a1",
+  "owner": "vruqtumfy",
+  "repo": "page-8cab5124cd0d602602ee0641",
+  "title": "44F网络",
+  "mode": "repo",
+  "articles": [
+    {
+      "id": "8cab5124cd0d602602ee0641",
+      "a": "44F网络",
+      "b": "",
+      "entity": "44F网络",
+      "brand": "44F网络",
+      "separator": "",
+      "path": "index.html",
+      "hash": "4a697ec9655740c390e2d561d21c2a47d1974284ddb7625470e7360556559c7a",
+      "content": {
+        "keyword1": "44F网络",
+        "keyword2": "",
+        "primary_entity": "44F网络",
+        "plans": [
+          {
+            "name": "基础版",
+            "price": "¥15/月",
+            "annual_price": "按年付仅需 ¥150/年",
+            "features": [
+              "每月 100GB 极速流量",
+              "支持 3 台设备同时在线",
+              "解锁基础流媒体",
+              "普通线路节点池"
+            ]
+          },
+          {
+            "name": "旗舰版",
+            "price": "¥35/月",
+            "annual_price": "按年付仅需 ¥350/年",
+            "featured": true,
+            "features": [
+              "每月 300GB 极速流量",
+              "支持 5 台设备同时在线",
+              "全节点原生流媒体解锁",
+              "IPLC 专线游戏加速优化",
+              "7x24 优先工单支持"
+            ]
+          },
+          {
+            "name": "团队版",
+            "price": "¥85/月",
+            "annual_price": "按年付仅需 ¥850/年",
+            "features": [
+              "每月 1000GB 极速流量",
+              "支持 20 台设备同时在线",
+              "VIP 专属高带宽节点",
+              "支持企业定制路由",
+              "专属客户经理服务"
+            ]
+          }
+        ],
+        "clients": [],
+        "_offline": false,
+        "content": {
+          "AI_HERO_INTRO": "44F网络提供优质VPN加速服务，多种套餐可选，官方客户端下载便捷，支持多种设备。",
+          "AI_DESCRIPTION": "44F网络提供优质VPN加速服务，多种套餐可选，官方客户端下载便捷，支持多种设备。"
+        },
+        "_brand_page": {
+          "version": 1,
+          "body": "\n\n\n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    <style>\n        body {\n            font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif;\n            background-color: #F5F5DC;\n            color: #333333;\n            line-height: 1.6;\n            margin: 0;\n            padding: 0;\n        }\n        main {\n            max-width: 800px;\n            margin: 0 auto;\n            padding: 20px;\n        }\n        h1 {\n            color: #228B22;\n            text-align: center;\n            font-size: 2.5em;\n            margin-bottom: 20px;\n        }\n        h2 {\n            color: #0A5C36;\n            border-bottom: 2px solid #E8E8E8;\n            padding-bottom: 10px;\n            margin-top: 30px;\n        }\n        .steps {\n            display: flex;\n            flex-direction: column;\n            gap: 30px;\n            margin: 20px 0;\n        }\n        .step {\n            background-color: #FFFFFF;\n            border-radius: 12px;\n            padding: 25px;\n            box-shadow: 0 4px 12px rgba(0,0,0,0.05);\n            border-left: 6px solid #228B22;\n        }\n        .step-number {\n            background-color: #228B22;\n            color: white;\n            width: 40px;\n            height: 40px;\n            border-radius: 50%;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            font-weight: bold;\n            margin-bottom: 15px;\n        }\n        details {\n            background-color: #FFFFFF;\n            border-radius: 8px;\n            margin-bottom: 15px;\n            padding: 15px;\n        }\n        summary {\n            font-weight: 500;\n            color: #0A5C36;\n            cursor: pointer;\n        }\n        @media (max-width: 600px) {\n            h1 { font-size: 2em; }\n            .steps { gap: 20px; }\n        }\n    </style>\n\n\n    <main>\n        <h1>44F网络</h1>\n        <h2>什么是 44F网络？</h2>\n        <p>44F网络是一款专注于网络加速的VPN服务，旨在为用户提供稳定、高速的互联网连接体验。</p>\n        <h2>快速开始</h2>\n        <div class=\"steps\">\n            <div class=\"step\">\n                <div class=\"step-number\">1</div>\n                <h3>选择套餐</h3>\n                <p>根据您的使用需求选择适合的套餐方案。</p>\n                {{PLANS_HTML}}\n            </div>\n            <div class=\"step\">\n                <div class=\"step-number\">2</div>\n                <h3>选择客户端</h3>\n                <p>根据您的设备类型选择合适的客户端。</p>\n                {{CLIENTS_HTML}}\n            </div>\n            <div class=\"step\">\n                <div class=\"step-number\">3</div>\n                <h3>安装配置</h3>\n                <p>按照引导完成客户端安装。</p>\n            </div>\n            <div class=\"step\">\n                <div class=\"step-number\">4</div>\n                <h3>连接服务器</h3>\n                <p>登录账户后选择节点进行连接。</p>\n            </div>\n            <div class=\"step\">\n                <div class=\"step-number\">5</div>\n                <h3>享受加速</h3>\n                <p>畅享高速稳定的网络体验。</p>\n            </div>\n        </div>\n        <h2>常见问题解答</h2>\n        <details>\n            <summary>什么是 44F网络？</summary>\n            <p>44F网络是一款专业的网络加速器，提供高速VPN服务，帮助用户提升上网速度并解锁更多内容。</p>\n        </details>\n        <details>\n            <summary>如何选择套餐？</summary>\n            <p>根据您的流量需求和设备数量选择适合的版本。</p>\n        </details>\n        <details>\n            <summary>如何下载客户端？</summary>\n            <p>您可以从官网下载适用于不同设备的客户端。</p>\n        </details>\n        <details>\n            <summary>如何连接加速？</summary>\n            <p>安装客户端后，登录您的账户并选择合适的节点进行连接。</p>\n        </details>\n        <details>\n            <summary>套餐有不同版本吗？</summary>\n            <p>是的，共有基础版、旗舰版和团队版三种套餐可供选择。</p>\n        </details>\n    </main>\n\n",
+          "hash": "c4ce113954f679b8ff40a603263629ee47f56bb640b737489af3f79243cb9fb2",
+          "seo": {
+            "title": "44F网络 - VPN加速器 客户端下载",
+            "keywords": "44F网络, VPN, 加速器, 客户端下载, 机场订阅, 网络加速",
+            "description": "44F网络提供优质VPN加速服务，多种套餐可选，官方客户端下载便捷，支持多种设备。"
+          },
+          "provider": "grok"
+        }
+      }
+    }
+  ],
+  "domain": {
+    "apex": "hblxnfu.cn",
+    "host": "b.hblxnfu.cn",
+    "kind": "subdomain",
+    "candidate_roots_ref": "subdomain_roots:91e741dce7c147d9ce91af6f84daa678dae755807d903b04925261e0a3a8d804"
+  },
+  "friendlinks": [
+    {
+      "host": "hblxnfu.cn",
+      "url": "https://hblxnfu.cn/",
+      "label": "厘米云(CmCloud)",
+      "apex": "hblxnfu.cn",
+      "kind": null,
+      "identity": "mqhqfqqxf/page-0d9978a82f0254a189e9893c"
+    },
+    {
+      "host": "00ah6.cn",
+      "url": "https://00ah6.cn/",
+      "label": "SSHUB",
+      "apex": "00ah6.cn",
+      "kind": null,
+      "identity": "erjwrgjj/page-6141714b7a0f264666643c94"
+    },
+    {
+      "host": "01kmph.cn",
+      "url": "https://01kmph.cn/",
+      "label": "WeGo",
+      "apex": "01kmph.cn",
+      "kind": null,
+      "identity": "wbwftxwku/page-680ee6fa2562d6d22ba5a121"
+    }
+  ],
+  "file_hashes": {
+    "index.html": "da96b30af8f1c8b911e2e5342b0404966603d5efea18d6901c208f9da8c1b777",
+    "sitemap.xml": "1038fc41369440cb4dbc785ffa77e4b17e92d132050763d1ae7dff54b6657159",
+    ".nojekyll": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+    "CNAME": "1e6680c38e94273615fbb15eec82321db0b40013fe2b43f0c30180fc3db669e8",
+    "robots.txt": "fbe9e461612b0d4e1152a3bff9cfdc09f101139ef4cd92a6c75ee3247aecb3ea",
+    "fff18a29e8757396c1280f4ab11e54cf.txt": "d51772575848317cce7587938ec763cd54c3d2eb1a982c6901e81bc24add6d46"
+  },
+  "revision": "068f849b81d84745fd43d8fe64ffccc93666aa0063e0a088f0c8526f8dde8356"
+}
